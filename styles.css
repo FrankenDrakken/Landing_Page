@@ -8,7 +8,8 @@ body {
 
 header {
     display: flex;
-    height: 72px;
+    flex: 1 1 10vh;
+    height: 50px;
     background-color: #1F2937;
     color: white;
     justify-content: space-around;
@@ -16,18 +17,102 @@ header {
 }
 
 .logo {
+    display: flex;
     font-size: 24px;
     font-weight: 700;
 }
 
 .head-links {
     display: flex;
-    gap: 24px;
-    font-size: 20px;
+    gap: 36px;
+    font-size: 18px;
 }
 
 .h-link {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
 }
 
+.top-content {
+    display: flex;
+    background-color: #1F2937;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 450px;
+    width: 450px;
+    color: white;
+    margin-right: 24px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.t-paragraph {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #E5E7EB;
+}
+
+.t-button, .h-2link {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.h-2link {
+    display: block;
+}
+
+.middle-content {
+    display: flex;
+    align-items: center;
+    flex: 1 1 20vh;
+    flex-flow: wrap column;
+}
+
+h2 {
+    display: flex;
+    font-size: 44px;
+    margin: 48px 0px 48px 0px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 32px;
+}
+
+.m-cards {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+    font-size: 24px;
+    color: gray;
+    font-weight: 400;
+    text-align: center;
+}
+
+.m-paragraph {
+    margin-top: 10px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: 5px solid royalblue;
+    border-radius: 24px;
+}
