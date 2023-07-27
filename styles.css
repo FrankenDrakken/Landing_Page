@@ -35,10 +35,17 @@ header {
 
 .top-content {
     display: flex;
+    height: 720px;
+    align-items: center;
     background-color: #1F2937;
-    flex: 1 1 auto;
+}
+
+.t-container {
+    display: flex;
+    gap: 50px;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
 }
 
 .t-image {
@@ -95,6 +102,7 @@ h1 {
     align-items: center;
     flex: 1 1 20vh;
     flex-flow: wrap column;
+    margin-bottom: 50px;
 }
 
 h2 {
