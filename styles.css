@@ -14,6 +14,7 @@ header {
     color: white;
     justify-content: space-around;
     align-items: center;
+    padding-top: 25px;
 }
 
 .logo {
@@ -42,25 +43,39 @@ header {
 
 .t-container {
     display: flex;
-    gap: 50px;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
 }
 
+.image-container {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    height: 650px;
+    width: 450px;
+    color: white;
+    margin-right: 24px;
+}
+
 .t-image {
-    width: 560px;
-    height: 260px;
+    margin: 0px auto;
+    width: 790px;
+    height: 520px;
 }
 
 .title {
     display: flex;
+    flex: 1 1 auto;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 450px;
     width: 450px;
     color: white;
-    margin-right: 24px;
+    margin: 0px 45px 0px 45px;
+    text-align: center;
 }
 
 h1 {
@@ -95,6 +110,7 @@ h1 {
 .h-2link {
     display: block;
     text-align: center;
+    margin-top: 10px;
 }
 
 .middle-content {
