@@ -129,3 +129,35 @@ h2 {
     border: 5px solid royalblue;
     border-radius: 24px;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    flex: 1 1 60vh;
+}
+
+.quote {
+    margin-top: 100px;
+    display: flex;
+    width: 1080px;
+    flex: 0 1 50vh;
+    flex-flow: wrap column;
+    align-items: end;
+}
+
+.inspiring-quote {
+    font-size: 36px;
+    line-height: 1.5;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+
+.auTHOR {
+    font-size: 24px;
+    font-weight: 900;
+}
