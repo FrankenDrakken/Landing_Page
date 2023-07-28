@@ -98,7 +98,7 @@ h1 {
     color: #E5E7EB;
 }
 
-.t-button, .h-2link {
+.t-button {
     display: flex;
     justify-items: center;
     align-items: center;
@@ -107,9 +107,6 @@ h1 {
     border-radius: 8px;
     text-decoration: none;
     color: white;
-}
-
-.t-button {
     background-color: #3882f6;
     font-size: 20px;
     font-weight: 900;
@@ -119,8 +116,10 @@ h1 {
 .h-2link {
     display: block;
     text-align: center;
-    margin-top: 10px;
+    margin: 10px 0px 10px 0px;
     flex: 1 1 auto;
+    text-decoration: none;
+    color: white;
 }
 
 .middle-content {
